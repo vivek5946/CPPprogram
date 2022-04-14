@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+</head>
+
+<body>
+    <h1>forms demo</h1>
+    <button>outside form!</button>
+    <!-- outside form button required javascript -->
+    <form action="vivek.html">
+
+        <!-- action will tell us where data should be send and store -->
+        <p>
+            <label for="username">Enater the username</label>
+            <input id="üsername" type="text" placeholder="username">
+            <!-- <input type="text" placeholder="username"> -->
+        </p>
+        <p>
+            <!-- <input type="password" placeholder="password"> -->
+            <label for="password">Enater the password</label>
+            <input id="password" type="password" placeholder="password">
+        </p>
+
+        <p>
+            <!-- <input type="month" placeholder="month"> -->
+            <label for="month">Enater the month</label>
+            <input id="month" type="month" placeholder="month">
+        </p>
+        <p>
+            <!-- <input type="color" placeholder="color"> -->
+            <label for="color">Enater the color</label>
+            <input id="color" type="color" placeholder="color">
+        </p>
+
+        <p>
+            <!-- <input type="number" placeholder="number"> -->
+            <label for="number">Enater the number</label>
+            <input id="number" type="number" placeholder="number">
+        </p>
+        <button>submit</button>
+    </form>
+    <hr>
+    <h2>search reddit</h2>
+    <form action="https://www.reddit.com/">
+        <input type="text" name="q">
+        <button>search reddit</button>
+
+
+
+    </form>
+    <h3>search google</h3>
+    <form action="https://www.google.com/">
+        <input type="text" name="q">
+        <button>search google</button>
+
+
+
+    </form>
+    <h2> more inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree tos" id="agree">
+        <label for="agree"> i agree to everything</label>
+        <P>
+            <label for="xs">xs:</label>
+            <input type="radio" name="size" id="xs">
+            <lable for="s">s</lable>
+            <input type="radio" name="size" id="s">
+            <lable for="m">M</lable>
+            <input type="radio" name="size" id="m">
+
+        </P>
+        <p>
+            <label for="meal"> please select an entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">fish</option>
+                <option value="veg">vegiterian</option>
+                <opton value="steak"> steak</opton>
+
+
+
+            </select>
+
+
+
+        </p>
+        <p>
+
+            <label for="requests">Any special request</label>
+            <br>
+            <textarea id="requests" rows="10" cols="40" name="requests?" placeholder="type somyhing here"></textarea>
+        </p>
+
+
+        <button>submit</button>
+    </form>
+    <!-- in radio buttons you can selects only one option -->
+</body>
+
+</html>

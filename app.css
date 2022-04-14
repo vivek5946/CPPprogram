@@ -1,0 +1,56 @@
+ /* *{ */
+     /* color: pink; */
+     /* background-color: cyan; */
+ /* } */
+
+
+
+
+h1{
+    text-align: right;
+    width: 50%;
+    font-weight: normal;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:black underline;
+}
+
+
+
+
+h2 {
+    color:#5fcffc;
+    /* Hexadecimal color */
+    background-color: rgb(89,151,0);
+}
+
+button{
+    color:magenta;
+    background-color: cyan;
+}
+p{
+    color:olive;
+    background-color: black;
+    line-height: 2;
+    font-size: 12px;
+}
+body{
+    background-color: #55ccee;
+}
+/* in css semicolon should be there otherwise affect will no create */
+section{
+    width:50px;
+    height: 50%;
+    background-color: magenta;
+}
+#opacity{
+    width:50px;
+    height: 50%;
+    background-color: blue;
+
+}
+#rgpa{
+    width:50px;
+    height: 50%;
+    background-color: rgba(255,238,233,1);
+}
